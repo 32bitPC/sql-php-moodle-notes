@@ -9,3 +9,4 @@ Put **php_sqlsrv_73_ts.dll** and **php_pdo_sqlsrv_73_ts.dll** in ext <br>
 Enable **extension=php_pdo_sqlsrv_73_ts extension=php_sqlsrv_73_ts** in php.ini <br>
 Follow https://www.php.net/manual/en/function.sqlsrv-connect.php to connect both PHP and SQL Server <br>
 Use **print_r($row)** to print database items <br>
+Use **echo $row[0]."\n".$row[1]."\n".$row[2]."\n\n";** for **SQLSRV_FETCH_NUMERIC** <br>
