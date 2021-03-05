@@ -17,3 +17,5 @@ username and password of both must be the same <br>
 
 Use **get_record** wisely <br>
 https://stackoverflow.com/questions/28460512/proper-use-of-get-records-in-moodle <br>
+$record = $DB->get_record( 'table_name', array('key' => 'value'), 'selected key'); <br>
+$record->selected key; <br>
