@@ -14,3 +14,6 @@ Use **select row_number() over (ORDER BY field_1) n from table;** to select colu
 
 **phpmyadmin** + **moodle php** : <br>
 username and password of both must be the same <br>
+
+Use **get_record** wisely <br>
+https://stackoverflow.com/questions/28460512/proper-use-of-get-records-in-moodle <br>
