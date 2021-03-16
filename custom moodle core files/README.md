@@ -1,1 +1,1 @@
-*** Read php file in core moodle ***
+** Read php file in core moodle **
